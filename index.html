@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link rel="stylesheet" href="css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Form page</title>
+	</head>
+	<body>
+		<div id="pw">
+
+			<!-- begin mainHeader -->
+			<header class="mainHeader">
+				<div class="container">
+
+					<div class="mainHeaderTab ">
+						<div class="owl-carousel">
+							<div class="item">STEP 1 Property Term</div>
+							<div class="item">STEP 2 Property Details</div>
+							<div class="item">STEP 3 Screening &amp; Showings</div>
+							<div class="item">STEP 4 Maintenance</div>
+							<div class="item">STEP 5 Landloard Details</div>
+							<div class="item">STEP 6 May be new page</div>
+						</div>
+					</div>
+
+
+
+					<div class="mainHeaderRow">
+						<div class="mainHeaderLogo">logo here</div>
+						<div class="mainHeaderTitle">STEP 2 Property Details</div>
+					</div>
+				</div>
+			</header>
+			<!-- end mainHeader -->
+
+			<!-- begin tabContent -->
+			<main class="tabContent">
+				<div class="container">
+					<form class="tabContentForm" action="#" id="step1">
+
+						<!-- begin formSection (one row part) -->
+						<section class="formSection">
+
+							<div class="row">
+								<div class="col-md-4">
+									<div class="formSectionItem">
+										<div class="formSectionItemTitle">Any know?</div>
+										<ul class="formSectionItemList">
+											<li>
+												<span class="formSectionItemListText">Toxic Mold:</span>
+												<div class="controlWrap">
+													<div class="controlWrapInput controlWrapInputRadio">
+														<label for="toxicMoldNo">
+															<input type="radio" name="toxicMold" id="toxicMoldNo">
+															<span class="controlWrapInputText">No</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+													<div class="controlWrapInput controlWrapInputRadio">
+														<label for="toxicMoldYes">
+															<input type="radio" name="toxicMold" id="toxicMoldYes">
+															<span class="controlWrapInputText">Yes</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+												</div>
+											</li>
+											<li>
+												<span class="formSectionItemListText">Asbestos:</span>
+												<div class="controlWrap">
+													<div class="controlWrapInput controlWrapInputRadio">
+														<label for="asbestosNo">
+															<input type="radio" name="asbestos" id="asbestosNo">
+															<span class="controlWrapInputText">No</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+													<div class="controlWrapInput controlWrapInputRadio">
+														<label for="asbestosYes">
+															<input type="radio" name="asbestos" id="asbestosYes">
+															<span class="controlWrapInputText">Yes</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+												</div>
+											</li>
+											<li>
+												<span class="formSectionItemListText">Lead Paint:</span>
+												<div class="controlWrap">
+													<div class="controlWrapInput controlWrapInputRadio">
+														<label for="leadPaintNo">
+															<input type="radio" name="leadPaint" id="leadPaintNo">
+															<span class="controlWrapInputText">No</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+													<div class="controlWrapInput controlWrapInputRadio">
+														<label for="leadPaintYes">
+															<input type="radio" name="leadPaint" id="leadPaintYes">
+															<span class="controlWrapInputText">Yes</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+												</div>
+											</li>
+											<li>
+												<span class="formSectionItemListText">Pests/Bedbugs:</span>
+												<div class="controlWrap">
+													<div class="controlWrapInput controlWrapInputRadio">
+														<label for="pestsNo">
+															<input type="radio" name="pests" id="pestsNo">
+															<span class="controlWrapInputText">No</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+													<div class="controlWrapInput controlWrapInputRadio">
+														<label for="pestsYes">
+															<input type="radio" name="pests" id="pestsYes">
+															<span class="controlWrapInputText">Yes</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+												</div>
+											</li>
+											<li>
+												<span class="formSectionItemListText">Death (3 years):</span>
+												<div class="controlWrap" data-addControl>
+													<div class="controlWrapInput controlWrapInputRadio">
+														<label for="deathNo">
+															<input type="radio" name="death" id="deathNo" date-addControl="no">
+															<span class="controlWrapInputText">No</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+													<div class="controlWrapInput controlWrapInputRadio">
+														<label for="deathYes">
+															<input type="radio" name="death" id="deathYes" date-addControl="yes">
+															<span class="controlWrapInputText">Yes</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+												</div>
+												<div class="controlWrap controlWrapDatePicker controlWrapDatePickerHide">
+													<div class='input-group' id="dateTime">
+														<input type='text'>
+														<span class="input-group-addon">
+															<span class="icon-calendar"></span>
+														</span>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="formSectionItem">
+										<div class="formSectionItemTitle">HOA</div>
+										<div class="controlWrap" data-selectCheck>
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="HOAno">
+													<input type="radio" name="HOA" id="HOAno" data-selectCheck="no">
+													<span class="controlWrapInputText">No</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="HOAyes">
+													<input type="radio" name="HOA" id="HOAyes" data-selectCheck="yes">
+													<span class="controlWrapInputText">Yes, include</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+										</div>
+
+										<div class="controlWrap controlWrapSelectToggle controlWrapSelectHide">
+											<div class="controlWrapSelect">
+												<select name="" id="">
+													<option value="">HOAs</option>
+													<option value="">HOAs</option>
+													<option value="">HOAs</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="formSectionItemCheckboxGroup">
+											<div class="controlWrap">
+												<div class="controlWrapInput controlWrapInputCheckbox">
+													<label for="clubAccess">
+														<input type="checkbox" id="clubAccess">
+														<span class="controlWrapInputText">Club Access</span>
+														<span class="controlWrapInputMark"></span>
+													</label>
+												</div>
+												<div class="controlWrapInput controlWrapInputCheckbox">
+													<label for="goldForFree">
+														<input type="checkbox" id="goldForFree">
+														<span class="controlWrapInputText">Gold for Free</span>
+														<span class="controlWrapInputMark"></span>
+													</label>
+												</div>
+											</div>
+											<div class="controlWrap">
+												<div class="controlWrapInput controlWrapInputCheckbox">
+													<label for="poolAccess">
+														<input type="checkbox" id="poolAccess">
+														<span class="controlWrapInputText">Pool Access</span>
+														<span class="controlWrapInputMark"></span>
+													</label>
+												</div>
+												<div class="controlWrapInput controlWrapInputCheckbox">
+													<label for="homeInternet">
+														<input type="checkbox" id="homeInternet">
+														<span class="controlWrapInputText">Home Internet</span>
+														<span class="controlWrapInputMark"></span>
+													</label>
+												</div>
+											</div>
+											<div class="controlWrap">
+												<div class="controlWrapInput controlWrapInputCheckbox">
+													<label for="fitnessCenter">
+														<input type="checkbox" id="fitnessCenter">
+														<span class="controlWrapInputText">Fitness Center</span>
+														<span class="controlWrapInputMark"></span>
+													</label>
+												</div>
+												<div class="controlWrapInput controlWrapInputCheckbox">
+													<label for="frontLandscaping">
+														<input type="checkbox" id="frontLandscaping">
+														<span class="controlWrapInputText">Front Landscaping</span>
+														<span class="controlWrapInputMark"></span>
+													</label>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="controlWrap">
+											<div class="controlWrapText">Access fee</div>
+											<div class="controlWrapInput">
+												<input type="text" name="access" id="access" placeholder="$">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="formSectionItem">
+										<div class="formSectionItemTitle">PARKING RESTRICTIONS</div>
+										<ul class="formSectionItemList">
+											<li>
+												<div class="controlWrap">
+													<div class="controlWrapInput controlWrapInputCheckbox">
+														<label for="parking1">
+															<input type="checkbox" id="parking1">
+															<span class="controlWrapInputText">No Overnight Parking</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="controlWrap">
+													<div class="controlWrapInput controlWrapInputCheckbox">
+														<label for="parking2">
+															<input type="checkbox" id="parking2">
+															<span class="controlWrapInputText">No Parking on Street</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="controlWrap">
+													<div class="controlWrapInput controlWrapInputCheckbox">
+														<label for="parking3">
+															<input type="checkbox" id="parking3">
+															<span class="controlWrapInputText">No Parking in Driveway</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="controlWrap">
+													<div class="controlWrapInput controlWrapInputCheckbox">
+														<label for="parking4">
+															<input type="checkbox" id="parking4">
+															<span class="controlWrapInputText">No RV/Boat</span>
+															<span class="controlWrapInputMark"></span>
+														</label>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</section>
+						<!-- end formSection (one row part) -->
+
+						<!-- begin formSection (one row part) -->
+						<section class="formSection">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="formSectionItem">
+										<div class="formSectionItemTitle">ASSIGNED PARKING</div>
+										<div class="controlWrap">
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="assignedParkingYes">
+													<input type="radio" name="assignedParking" id="assignedParkingYes">
+													<span class="controlWrapInputText">Yes</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="assignedParkingNo">
+													<input type="radio" name="assignedParking" id="assignedParkingNo">
+													<span class="controlWrapInputText">No</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+										</div>
+
+										<div class="controlWrap controlWrapAction" data-actionElem>
+											<div class="controlWrapActionBtn">
+												<div class="controlWrapActionBtnRemove" data-action="remove"></div>
+												<div class="controlWrapActionBtnAdd" data-action="add"></div>
+											</div>
+											<div class="controlWrapSelect">
+												<select name="" id="">
+													<option value="">Type</option>
+													<option value="">Type</option>
+													<option value="">Type</option>
+												</select>
+											</div>
+											<div class="controlWrapInput">
+												<input type="text" placeholder="Loc #">
+											</div>
+										</div>
+
+										<div class="controlWrap controlWrapAction" data-actionElem>
+											<div class="controlWrapActionBtn">
+												<div class="controlWrapActionBtnRemove"></div>
+												<div class="controlWrapActionBtnAdd"></div>
+											</div>
+											<div class="controlWrapSelect">
+												<select name="" id="">
+													<option value="">Other</option>
+													<option value="">Other</option>
+													<option value="">Other</option>
+												</select>
+											</div>
+											<div class="controlWrapInput">
+												<input type="text" placeholder="User Defined">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="formSectionItem">
+										<div class="formSectionItemTitle">Codes</div>
+										<div class="controlWrap">
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="codesYes">
+													<input type="radio" name="codes" id="codesYes">
+													<span class="controlWrapInputText">Yes</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="codesNo">
+													<input type="radio" name="codes" id="codesNo">
+													<span class="controlWrapInputText">No</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+										</div>
+
+										<div class="controlWrap controlWrapAction" data-actionElem>
+											<div class="controlWrapActionBtn">
+												<div class="controlWrapActionBtnRemove"></div>
+												<div class="controlWrapActionBtnAdd"></div>
+											</div>
+											<div class="controlWrapSelect">
+												<select name="" id="">
+													<option value="">Type</option>
+													<option value="">Type</option>
+													<option value="">Type</option>
+												</select>
+											</div>
+											<div class="controlWrapInput">
+												<input type="text" placeholder="Password">
+											</div>
+										</div>
+
+										<div class="controlWrap controlWrapAction" data-actionElem>
+											<div class="controlWrapActionBtn">
+												<div class="controlWrapActionBtnRemove"></div>
+												<div class="controlWrapActionBtnAdd"></div>
+											</div>
+											<div class="controlWrapSelect">
+												<select name="" id="">
+													<option value="">Other</option>
+													<option value="">Other</option>
+													<option value="">Other</option>
+												</select>
+											</div>
+											<div class="controlWrapInput">
+												<input type="text" placeholder="User Defined">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="formSectionItem">
+										<div class="formSectionItemTitle">Alarm</div>
+
+										<div class="controlWrap">
+											<div class="controlWrapText">Name</div>
+											<div class="controlWrapInput">
+												<input type="text" placeholder="Alarm Company">
+											</div>
+										</div>
+
+										<div class="controlWrap">
+											<div class="controlWrapText">Phone</div>
+											<div class="controlWrapInput">
+												<input type="text" placeholder="123 - 456 - 7890">
+											</div>
+										</div>
+
+										<div class="controlWrap">
+											<div class="controlWrapText">Password</div>
+											<div class="controlWrapInput">
+												<input type="text" placeholder="Safe Word(s)">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- end formSection (one row part) -->
+
+						<!-- begin formSection (one row part) -->
+						<section class="formSection">
+
+							<div class="row">
+								<div class="col-md-6">
+									<div class="formSectionItem">
+										<div class="formSectionItemTitle">KEY &amp; REMOTE INVENTORY</div>
+										<div class="controlWrap">
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="inventoryYes">
+													<input type="radio" name="inventory" id="inventoryYes">
+													<span class="controlWrapInputText">Yes</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="inventoryNo">
+													<input type="radio" name="inventory" id="inventoryNo">
+													<span class="controlWrapInputText">No</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+										</div>
+
+										<div class="controlWrap controlWrapAction" data-actionElem>
+											<div class="controlWrapActionBtn">
+												<div class="controlWrapActionBtnRemove"></div>
+												<div class="controlWrapActionBtnAdd"></div>
+											</div>
+											<div class="controlWrapSelect">
+												<select name="" id="" >
+													<option value="">Type</option>
+													<option value="">Type</option>
+													<option value="">Type</option>
+												</select>
+											</div>
+											<div class="controlWrapSelect">
+												<select name="" id="">
+													<option value="">In Possession</option>
+													<option value="">In Possession</option>
+													<option value="">In Possession</option>
+												</select>
+											</div>
+											<div class="controlWrapInput">
+												<input type="text" placeholder="Note">
+											</div>
+										</div>
+
+										<div class="controlWrap controlWrapAction" data-actionElem>
+											<div class="controlWrapActionBtn">
+												<div class="controlWrapActionBtnRemove"></div>
+												<div class="controlWrapActionBtnAdd"></div>
+											</div>
+											<div class="controlWrapSelect">
+												<select name="" id="">
+													<option value="">Type</option>
+													<option value="">Type</option>
+													<option value="">Type</option>
+												</select>
+											</div>
+											<div class="controlWrapSelect">
+												<select name="" id="">
+													<option value="">In Possession</option>
+													<option value="">In Possession</option>
+													<option value="">In Possession</option>
+												</select>
+											</div>
+											<div class="controlWrapInput">
+												<input type="text" placeholder="Note">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-3">
+									<div class="formSectionItem">
+										<div class="formSectionItemTitle">MAILBOX KEYS</div>
+
+										<div class="controlWrap">
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="noKey">
+													<input type="radio" name="key" id="noKey">
+													<span class="controlWrapInputText">No Key Needed</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+										</div>
+										<div class="controlWrap">
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="tenant">
+													<input type="radio" name="key" id="tenant">
+													<span class="controlWrapInputText">Reimburse Tenant</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+										</div>
+										<div class="controlWrap">
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="seeKey">
+													<input type="radio" name="key" id="seeKey">
+													<span class="controlWrapInputText">See Key Inventory</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-3">
+									<div class="formSectionItem">
+										<div class="formSectionItemTitle">MAILBOX #</div>
+										<div class="controlWrap">
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="nA">
+													<input type="radio" name="mail" id="nA">
+													<span class="controlWrapInputText">N/A</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+										</div>
+										<div class="controlWrap">
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="unknown">
+													<input type="radio" name="mail" id="unknown">
+													<span class="controlWrapInputText">Unknown</span>
+													<span class="controlWrapInputMark"></span>
+												</label>
+											</div>
+										</div>
+										<div class="controlWrap">
+											<div class="controlWrapInput controlWrapInputRadio">
+												<label for="mailId">
+													<input type="radio" name="mail" id="mailId">
+													<span class="controlWrapInputText"></span>
+													<span class="controlWrapInputMark"></span>
+													<input type="text" placeholder="#">
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</section>
+						<!-- end formSection (one row part) -->
+
+					</form>
+				</div>
+			</main>
+			<!-- end tabContent -->
+
+			<!-- begin fixedBtnNav -->
+			<div class="fixedBtn">
+				<div class="fixedBtnWrap">
+					<div class="fixedBtnPrev"></div>
+					<div class="fixedBtnNext"></div>
+				</div>
+			</div>
+			<!-- end fixedBtnNav -->
+
+
+		</div>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/moment.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap-datetimepicker.js"></script>
+		<script src="js/common.js"></script>
+
+
+	</body>
+</html>
